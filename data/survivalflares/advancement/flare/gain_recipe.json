@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#survivalflares:survival_flare_component"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "survivalflares:survival_flare"
+    ]
+  }
+}

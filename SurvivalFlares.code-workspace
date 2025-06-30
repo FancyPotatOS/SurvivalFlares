@@ -1,0 +1,13 @@
+{
+	"folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../../../../resourcepacks/SurvivalFlaresResourcePack - 1.21.5"
+        }
+    ],
+    "settings": {
+        "workbench.iconTheme": "mc-dp-icons"
+    }
+}

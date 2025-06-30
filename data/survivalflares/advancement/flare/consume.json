@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:stick",
+          "components": {
+            "minecraft:custom_data": "{survivalflares:{type:\"flare\"}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "survivalflares:flare/consume"
+  }
+}

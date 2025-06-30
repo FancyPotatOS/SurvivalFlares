@@ -1,0 +1,50 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {"text":"Flare","color": "green"},
+                                "minecraft:custom_data": "{survivalflares:{type:\"flare\"}}",
+                                "minecraft:item_model": "survivalflares:survival_flare",
+                                "minecraft:food": {
+                                    "nutrition": 0,
+                                    "saturation": 0,
+                                    "can_always_eat": true
+                                },
+                                "minecraft:consumable": {
+                                    "consume_seconds": 1.5,
+                                    "animation": "brush",
+                                    "has_consume_particles": false,
+                                    "sound": {
+                                        "sound_id": "survivalflares:item.survival_flare.igniting",
+                                        "range": 20
+                                    },
+                                    "on_consume_effects": [
+                                        {
+                                            "type": "minecraft:play_sound",
+                                            "sound": {
+                                                "sound_id": "survivalflares:item.survival_flare.ignite",
+                                                "range": 20
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
